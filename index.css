@@ -1,0 +1,73 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.banner {
+    background: url(cover\ \(2\).jpg) no-repeat center center;
+    background-size: cover;
+    padding-top: 18%;
+    padding-bottom: 15%;
+}   
+
+.tebel{
+    font-weight: 350;
+}
+
+.bg2{
+    background: url(bagground.jpg);
+    background-size: cover;
+    padding-top: 3%;
+    padding-bottom: 10%;
+}
+
+.industriimg{
+    margin-right: 20px;
+    margin-left: 20px;
+    float: left;
+}
+
+.industry-style{
+    font-size: 19px;
+    margin-left: 30px;
+    text-align: justify;
+}
+
+@media only screen and (max-width: 768px) {
+    .about {
+        display: block;
+        text-align: center;
+        font-size: 3vw;
+    }
+    .jumbotron p {
+        text-align: center;
+        font-size: 3vw;
+    }
+    .desc p {
+        text-align: center;
+    }
+    hr {
+        width: 200px;
+    }
+    .about-reverse {
+        display: block;
+        text-align: center;
+        font-size: 3vw;
+    }
+    .footer {
+        display: block;
+        text-align: left;
+        margin-left: 40px;
+    }
+    .logo {
+        margin-bottom: 30px;
+    }
+    .info {
+        margin-bottom: 30px;
+    }
+    .follow {
+        margin-bottom: 30px;
+    }
+    .creator {
+        margin-bottom: 30px;
+    }
+}
